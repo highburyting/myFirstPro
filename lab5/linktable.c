@@ -1,22 +1,22 @@
 
 /********************************************************************/
-/* Copyright (C) SSE-USTC, 2012-2013                                */
+/* Copyright (C) SSE-USTC, 2017-2018                                */
 /*                                                                  */
 /*  FILE NAME             :  linktabe.c                             */
-/*  PRINCIPAL AUTHOR      :  Mengning                               */
+/*  PRINCIPAL AUTHOR      :  WangTao                                */
 /*  SUBSYSTEM NAME        :  LinkTable                              */
 /*  MODULE NAME           :  LinkTable                              */
 /*  LANGUAGE              :  C                                      */
 /*  TARGET ENVIRONMENT    :  ANY                                    */
-/*  DATE OF FIRST RELEASE :  2012/12/30                             */
+/*  DATE OF FIRST RELEASE :  2017/10/22                             */
 /*  DESCRIPTION           :  interface of Link Table                */
 /********************************************************************/
 
 /*
  * Revision log:
  *
- * Created by Mengning,2012/12/30
- * Provide right Callback interface by Mengning,2012/09/17
+ * Created by WangTao,2017/10/22
+ * Provide right Callback interface by WangTao,2017/10/22
  *
  */
 
@@ -30,7 +30,7 @@ struct LinkTable
     tLinkTableNode *pTail;
     int		SumOfNode;
     pthread_mutex_t mutex;
-}
+};
 
 /*
  * Create a LinkTable

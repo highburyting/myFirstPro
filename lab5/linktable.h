@@ -1,21 +1,21 @@
 
 /********************************************************************/
-/* Copyright (C) SSE-USTC, 2012-2013                                */
+/* Copyright (C) SSE-USTC, 2017-2018                                */
 /*                                                                  */
-/*  FILE NAME             :  linktabe.h                             */
-/*  PRINCIPAL AUTHOR      :  Mengning                               */
+/*  FILE NAME             :  linktabe.c                             */
+/*  PRINCIPAL AUTHOR      :  WangTao                                */
 /*  SUBSYSTEM NAME        :  LinkTable                              */
 /*  MODULE NAME           :  LinkTable                              */
 /*  LANGUAGE              :  C                                      */
 /*  TARGET ENVIRONMENT    :  ANY                                    */
-/*  DATE OF FIRST RELEASE :  2012/12/30                             */
+/*  DATE OF FIRST RELEASE :  2017/10/22                             */
 /*  DESCRIPTION           :  interface of Link Table                */
 /********************************************************************/
 
 /*
  * Revision log:
  *
- * Created by Mengning,2012/12/30
+ * Created by WangTao,2017/10/22
  *
  */
 
@@ -38,13 +38,7 @@ typedef struct LinkTableNode
 /*
  * LinkTable Type
  */
-typedef struct LinkTable
-{
-    tLinkTableNode *pHead;
-    tLinkTableNode *pTail;
-    int			SumOfNode;
-    pthread_mutex_t mutex;
-}tLinkTable;
+typedef struct LinkTable tLinkTable;
 
 /*
  * Create a LinkTable

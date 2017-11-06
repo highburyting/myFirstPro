@@ -1,21 +1,21 @@
 
-/**************************************************************************************************/
-/* Copyright (C) mc2lab.com, SSE@USTC, 2014-2015                                                  */
-/*                                                                                                */
-/*  FILE NAME             :  menu.c                                                               */
-/*  PRINCIPAL AUTHOR      :  Mengning                                                             */
-/*  SUBSYSTEM NAME        :  menu                                                                 */
-/*  MODULE NAME           :  menu                                                                 */
-/*  LANGUAGE              :  C                                                                    */
-/*  TARGET ENVIRONMENT    :  ANY                                                                  */
-/*  DATE OF FIRST RELEASE :  2014/08/31                                                           */
-/*  DESCRIPTION           :  This is a menu program                                               */
-/**************************************************************************************************/
+/********************************************************************/
+/* Copyright (C) SSE-USTC, 2017-2018                                */
+/*                                                                  */
+/*  FILE NAME             :  linktabe.c                             */
+/*  PRINCIPAL AUTHOR      :  WangTao                                */
+/*  SUBSYSTEM NAME        :  LinkTable                              */
+/*  MODULE NAME           :  LinkTable                              */
+/*  LANGUAGE              :  C                                      */
+/*  TARGET ENVIRONMENT    :  ANY                                    */
+/*  DATE OF FIRST RELEASE :  2017/10/22                             */
+/*  DESCRIPTION           :  interface of Link Table                */
+/********************************************************************/
 
 /*
  * Revision log:
  *
- * Created by Mengning, 2014/08/31
+ * Created by WangTao, 2017/10/22
  *
  */
 
